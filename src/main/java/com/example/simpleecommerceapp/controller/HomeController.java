@@ -39,10 +39,10 @@ public class HomeController {
 		return "AboutUs";
 	}
 
-	@GetMapping("/login")
-	public String login(Model model) {
-		model.addAttribute("admin", new Admin());
-		return "LoginPage";
-	}
+//	@GetMapping("/login")
+//	public String login(Model model) {
+//		model.addAttribute("admin", new Admin());
+//		return "LoginPage";
+//	}
 
 }
